@@ -1,0 +1,25 @@
+{
+  "name": "startbootstrap-sb-admin-2-sidebar-toggle",
+  "version": "0.0.1",
+  "authors": [
+    "pramod-rathod-avalara <pramodrathod007@gmail.com>"
+  ],
+  "description": "Sidebar with toggle option for sb admin 2",
+  "keywords": [
+    "sbadmin2",
+    "bootstrap",
+    "sidebar",
+    "toggle"
+  ],
+  "license": "GPLV2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "startbootstrap-sb-admin-2": "~1.0.7"
+  }
+}

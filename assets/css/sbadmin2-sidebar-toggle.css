@@ -1,0 +1,29 @@
+
+/* Sidebar toggle css styles */
+
+#wrapper.toggled #sidebar-wrapper .sidebar {
+    width: 50px;
+    overflow: hidden;
+}
+
+#wrapper.toggled #sidebar-wrapper ul li .masked {
+    display: none;
+}
+
+#wrapper.toggled #sidebar-wrapper ul li ul {
+    z-index: 1;
+    position: fixed;
+    left: 51px;
+    margin-top: -40px;
+    background-color: rgba(234, 234, 234, 0.2);
+}
+
+#wrapper.toggled #sidebar-wrapper ul li ul li ul {
+    position: relative;
+    margin-top: 0px;
+    margin-left: -51px;
+}
+
+#wrapper.toggled #page-wrapper {
+    margin: 0 0 0 50px;
+}
