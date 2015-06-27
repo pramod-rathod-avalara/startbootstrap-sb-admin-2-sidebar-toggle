@@ -1,6 +1,6 @@
 {
   "name": "startbootstrap-sb-admin-2-sidebar-toggle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "pramod-rathod-avalara <pramodrathod007@gmail.com>"
   ],
@@ -18,6 +18,9 @@
     "bower_components",
     "test",
     "tests"
+  ],
+  "main": [
+    "assets/css/sbadmin2-sidebar-toggle.css"
   ],
   "dependencies": {
     "startbootstrap-sb-admin-2": "~1.0.7"
