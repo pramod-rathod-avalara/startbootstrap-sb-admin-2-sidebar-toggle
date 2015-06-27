@@ -176,12 +176,13 @@
     <!-- Custom Theme JavaScript -->
     <script src="./assets/bower/startbootstrap-sb-admin-2/dist/js/sb-admin-2.js"></script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $("#menu-toggle").click(function(e) {
-            e.preventDefault();
-            $("#wrapper").toggleClass("toggled");
+        $(document).ready(function() {
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+                $('#wrapper.toggled').find("#sidebar-wrapper").find(".collapse").collapse('hide');
+            });
         });
-    });
     </script>
 </body>
 
