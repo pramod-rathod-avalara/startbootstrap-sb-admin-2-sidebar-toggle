@@ -19,6 +19,9 @@
     "test",
     "tests"
   ],
+  "main": [
+    "assets/css/sbadmin2-sidebar-toggle.css"
+  ],
   "dependencies": {
     "startbootstrap-sb-admin-2": "~1.0.7"
   }
