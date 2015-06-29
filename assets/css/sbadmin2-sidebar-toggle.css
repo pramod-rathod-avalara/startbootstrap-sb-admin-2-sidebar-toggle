@@ -3,7 +3,6 @@
 
 #wrapper.toggled #sidebar-wrapper .sidebar {
     width: 50px;
-    overflow: hidden;
 }
 
 #wrapper.toggled #sidebar-wrapper ul li .masked {
@@ -11,11 +10,12 @@
 }
 
 #wrapper.toggled #sidebar-wrapper ul li ul {
-    z-index: 1;
-    position: fixed;
+    position: absolute;
     left: 51px;
     margin-top: -40px;
     background-color: rgba(234, 234, 234, 0.2);
+    width: 200px;
+    z-index: 17;
 }
 
 #wrapper.toggled #sidebar-wrapper ul li ul li ul {
