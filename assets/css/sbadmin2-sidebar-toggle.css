@@ -28,8 +28,14 @@
     margin: 0 0 0 50px;
 }
 
-.scrollable {
+.scrollable-menu {
   overflow-y: scroll;
   height: 100vh;
   margin-bottom: -101px;
+}
+
+.scrollable-sub-menu {
+    max-height: 400px;
+    overflow: hidden;
+    overflow-y: auto;
 }
